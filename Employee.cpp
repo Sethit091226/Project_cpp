@@ -19,8 +19,8 @@ class Employee{
        float getSalary(){
             return salary;
        }
-       int setsalary(){
-         return setsalary;
+       int setsalary(float s){
+         salary = s;
        }
 
 };
